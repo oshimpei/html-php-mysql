@@ -67,22 +67,22 @@ if ((!empty($_POST['edit']))&&!empty($_POST['pass3'])){//edit&pass3が送信さ�
 
 
 //～～フォームの作成～～
-<form action = "mission4-1.php" method="post">
+<form action = "missionGITver.php" method="post">
 名前：
 <input type = "text" name="name" value="<?php echo $data2; ?>"><br/>
 コメント：
 <input type ="text" name="comment" value="<?php echo $data3; ?>">
 <input type ="hidden" name="editnum" value="<?php echo $data1; ?>" ><br/>
-<input type ="text" name="pass1" value=""placeholder="パスワード"">
+<input type ="text" name="pass1" placeholder="パスワード">
 <input type="submit" value="送信" name="button1"><br/>
 
 <br/>
-<input type ="text" name="delete" value=""placeholder="削除対象番号""><br/>
-<input type ="text" name="pass2" value=""placeholder="パスワード"">
+<input type ="text" name="delete" placeholder="削除対象番号""><br/>
+<input type ="text" name="pass2" placeholder="パスワード">
 <input type="submit" value="削除" name="button2"><br/>
 <br/>
-<input type ="text" name="edit" value=""placeholder="編集対象番号""><br/>
-<input type ="text" name="pass3" value=""placeholder="パスワード"">
+<input type ="text" name="edit" placeholder="編集対象番号"><br/>
+<input type ="text" name="pass3" placeholder="パスワード">
 <input type="submit" value="編集" name="button3">
 </form>
 
