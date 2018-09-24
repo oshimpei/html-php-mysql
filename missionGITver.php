@@ -77,7 +77,7 @@ if ((!empty($_POST['edit']))&&!empty($_POST['pass3'])){//edit&pass3が送信さ�
 <input type="submit" value="送信" name="button1"><br/>
 
 <br/>
-<input type ="text" name="delete" placeholder="削除対象番号""><br/>
+<input type ="text" name="delete" placeholder="削除対象番号"><br/>
 <input type ="text" name="pass2" placeholder="パスワード">
 <input type="submit" value="削除" name="button2"><br/>
 <br/>
